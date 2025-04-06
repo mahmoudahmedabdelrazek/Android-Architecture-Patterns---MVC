@@ -53,6 +53,5 @@ MVC (Model-View-Controller) Architecture Pattern
 Minimum API 21 (Android 5.0 Lollipop)
 
 📸 Screenshots
-
-https://github.com/mahmoudahmedabdelrazek/Android-Architecture-Patterns---MVC/blob/main/Screenshot_20250406_120136.png
-https://github.com/mahmoudahmedabdelrazek/Android-Architecture-Patterns---MVC/blob/main/Screenshot_20250406_120123.png
+User Input Screen	Output Screen
+	

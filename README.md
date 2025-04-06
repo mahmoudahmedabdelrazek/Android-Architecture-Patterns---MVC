@@ -27,7 +27,8 @@ The result is displayed in the TextView.
 🚀 How to Run
 1. Clone the Repository
 bash
-
+نسخ
+تحرير
 git clone https://github.com/mahmoudahmedabdelrazek/Android-Architecture-Patterns---MVC.git
 2. Open in Android Studio
 Launch Android Studio.
@@ -53,5 +54,7 @@ MVC (Model-View-Controller) Architecture Pattern
 Minimum API 21 (Android 5.0 Lollipop)
 
 📸 Screenshots
-User Input Screen	Output Screen
-	
+User Input Screen
+https://github.com/mahmoudahmedabdelrazek/Android-Architecture-Patterns---MVC/blob/main/Screenshot_20250406_120123.png
+Output Screen
+https://github.com/mahmoudahmedabdelrazek/Android-Architecture-Patterns---MVC/blob/main/Screenshot_20250406_120136.png

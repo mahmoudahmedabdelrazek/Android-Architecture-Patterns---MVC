@@ -1,19 +1,58 @@
+📱 Android MVC Example
+This is a simple Android application demonstrating the Model-View-Controller (MVC) architectural pattern. The app allows users to enter their name and age through a clean user interface, and then displays the entered information in a TextView.
 
-# Android MVC Example
+🧱 Architecture (MVC Structure)
+🔹 Model – Model.kt
+Handles the data (name and age) and contains business logic and validation.
 
-This is a simple Android application demonstrating the Model-View-Controller (MVC) architectural pattern. The app allows users to input their name and age through a simple UI, then displays the entered information in a TextView. The app separates the logic into three components: Model, View, and Controller. It includes input fields for name and age, a button to submit the input, and displays the user's name and age in a TextView. It also handles empty name input by defaulting to "Unknown" and validates age input by converting it to an integer (defaults to 0 if invalid).
+🔹 View – activity_main.xml
+Represents the UI layout, including EditText fields for name and age, a Button to submit, and a TextView to display the result.
 
-The project structure follows the MVC pattern:  
-- **Model**: `Model.kt` - Represents the data (name and age) and contains the business logic.  
-- **View**: `activity_main.xml` - The UI layout containing `EditText` for name and age, a `Button`, and a `TextView` to display the result.  
-- **Controller**: `MainActivity.kt` - Manages the interaction between the View and the Model by retrieving user input, updating the Model, and updating the View with the result.  
+🔹 Controller – MainActivity.kt
+Acts as the bridge between the View and the Model. It reads user input, updates the Model, and refreshes the View accordingly.
 
-The app works as follows: the user enters their name and age in the provided `EditText` fields, and when they click the "Submit" button, the `MainActivity` (Controller) retrieves the input, validates it (e.g., sets the name to "Unknown" if empty, converts age to an integer), creates a `Model` object with the input data, and updates the `TextView` in the View with the data from the `Model`.
+⚙️ How It Works
+The user enters their name and age.
 
-To set up and run the app:  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/mahmoudahmedabdelrazek/Android-Architecture-Patterns---MVC.git
-Open the project in Android Studio, sync it with Gradle, and run the app on an emulator or a physical device.
-Prerequisites: Android Studio (latest version recommended), Android SDK, and a device or emulator running Android API 21 or higher.
-Technologies Used: Kotlin, MVC (Model-View-Controller) architecture pattern, Android Studio, Minimum API 21 (Android 5.0 Lollipop).
+When the "Submit" button is clicked:
+
+If the name field is empty, it defaults to "Unknown".
+
+The age input is parsed to an integer (defaults to 0 if invalid).
+
+A Model object is created with the validated input.
+
+The result is displayed in the TextView.
+
+🚀 How to Run
+1. Clone the Repository
+bash
+
+git clone https://github.com/mahmoudahmedabdelrazek/Android-Architecture-Patterns---MVC.git
+2. Open in Android Studio
+Launch Android Studio.
+
+Open the cloned project.
+
+Sync Gradle and run the app on an emulator or physical device.
+
+📋 Requirements
+Android Studio (latest version recommended)
+
+Android SDK
+
+Device or emulator with Android API 21 (Lollipop) or higher
+
+🛠️ Technologies Used
+Kotlin
+
+Android SDK
+
+MVC (Model-View-Controller) Architecture Pattern
+
+Minimum API 21 (Android 5.0 Lollipop)
+
+📸 Screenshots
+
+https://github.com/mahmoudahmedabdelrazek/Android-Architecture-Patterns---MVC/blob/main/Screenshot_20250406_120136.png
+https://github.com/mahmoudahmedabdelrazek/Android-Architecture-Patterns---MVC/blob/main/Screenshot_20250406_120123.png
